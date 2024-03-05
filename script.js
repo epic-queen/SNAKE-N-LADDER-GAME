@@ -19,21 +19,21 @@ let player2 = {current:0, target:0, x:0, y:0, colour:'#8a2d', id:'AutoBot'};
 let activePlayer = player1;
 
 const obstacles = [
-	{type:'snake', start:97, end:78},
-	{type:'snake', start:95, end:56},
-	{type:'snake', start:88, end:24}, 
-	{type:'snake', start:62, end:18},
-	{type:'snake', start:48, end:26},
-	{type:'snake', start:36, end:6}, 
-	{type:'snake', start:32, end:10},
+	{type:'snake', start:17, end:7},
+	{type:'snake', start:54, end:34},
+	{type:'snake', start:64, end:60}, 
+	{type:'snake', start:62, end:19},
+	{type:'snake', start:87, end:24},
+	{type:'snake', start:93, end:73}, 
+	{type:'snake', start:95, end:75},
+	{type:'snake', start:98, end:79},
 	{type:'ladder', start:1, end:38},
 	{type:'ladder', start:4, end:14},
-	{type:'ladder', start:8, end:30},
-	{type:'ladder', start:21, end:42},
-	{type:'ladder', start:28, end:76},
-	{type:'ladder', start:50, end:67},
-	{type:'ladder', start:71, end:92},
-	{type:'ladder', start:80, end:99}
+	{type:'ladder', start:9, end:31},
+	{type:'ladder', start:28, end:84},
+	{type:'ladder', start:51, end:67},
+	{type:'ladder', start:80, end:100},
+	{type:'ladder', start:71, end:91},
 ];
 
 canvas.width = width;
