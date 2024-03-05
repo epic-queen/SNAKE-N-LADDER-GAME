@@ -15,7 +15,7 @@ let slideSpeed = .5;
 let rolled = '', rolling, rollCount, rollMax, rollSpeed=85;
 
 let player1 = {current:0, target:0, x:0, y:0, colour:'#f36d', id:'You'};
-let player2 = {current:0, target:0, x:0, y:0, colour:'#8a2d', id:'AutoBot'};
+let player2 = {current:0, target:0, x:0, y:0, colour:'#8a2d', id:'computer'};
 let activePlayer = player1;
 
 const obstacles = [
