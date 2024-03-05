@@ -1,6 +1,6 @@
 # SNAKE-N-LADDER-GAME
 
-Either clone my repo to ur local system using 
+Either clone my repo to ur local machine using 
 
 git clone https://github.com/epic-queen/SNAKE-N-LADDER-GAME.git       (or)
 
