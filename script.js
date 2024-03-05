@@ -14,8 +14,8 @@ let locked = false;
 let slideSpeed = .5;
 let rolled = '', rolling, rollCount, rollMax, rollSpeed=85;
 
-let player1 = {current:0, target:0, x:0, y:0, colour:'#0896e5', id:'You'};
-let player2 = {current:0, target:0, x:0, y:0, colour:'#ed2020', id:'computer'};
+let player1 = {current:0, target:0, x:0, y:0, colour:'#f46363', id:'You'};
+let player2 = {current:0, target:0, x:0, y:0, colour:'#7ac9e1', id:'computer'};
 let activePlayer = player1;
 
 const obstacles = [
